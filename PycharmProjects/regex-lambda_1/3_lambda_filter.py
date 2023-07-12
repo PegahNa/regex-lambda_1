@@ -27,8 +27,8 @@ print(new_numbers_A)
 
 # WITH LAMBDA
 
-new_numbers_B = list(filter(lambda x: x > 5, numbers))
-print(new_numbers_B)
+print(list(filter(lambda x: x > 5, numbers)))
+
 
 # In this case we did not need to define a separate filter function
 # like 'greater_than_five', we just used lambda in a single expression.

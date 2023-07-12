@@ -30,3 +30,6 @@ result_B = reduce(lambda a, b: a + b, numbers)
 print(result_B)
 
 ###############################################
+
+alphabet = ['1', '2', '3']
+print(reduce(lambda a, b: a + b, alphabet))
