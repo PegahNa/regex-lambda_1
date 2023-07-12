@@ -29,3 +29,7 @@ print(new_list_B)
 
 # In this case we did not need to define a separate function like 'add_five',
 # we just used lambda in a single expression.
+
+new_list_names = ['Jeff', 'Steve', 'Susan']
+print(list(map(lambda name: name + "s", new_list_names)))
+

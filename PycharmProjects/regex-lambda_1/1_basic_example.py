@@ -6,5 +6,7 @@ def triple1(num):
 # Basic Lambda Expression
 triple2 = lambda num: num * 3
 
-# triple1(3)
-# triple2(3)
+# print(triple1(3))
+# print(triple2(3))
+
+
